@@ -10,7 +10,7 @@
   <script src="js/script.js"></script>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>My page Title</title>
+  <title>Word Puzzler</title>
 </head>
 
 <body>
@@ -20,15 +20,14 @@
       <!-- A form example -->
       <div class="col-lg-10">
         <div class="well bs-component">
-          <form class="form-horizontal">
+          <form id="formPuzzle" class="form-horizontal">
             <fieldset>
               <legend>Word Puzzle</legend>
-              <p>Enter a word, and then press submit to remove the vowels.</p>
               <div class="form-group">
                 <label for="inputSentence" class="col-lg-2 control-label">Sentence</label>
                 <div class="col-lg-10">
-                  <textarea class="form-control" rows="3" id="textArea"></textarea>
-                  <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                  <textarea class="form-control" rows="3" id="inputSentence"></textarea>
+                  <span class="help-block">Enter a sentence of any length, then press submit to create your puzzle.</span>
                 </div>
               </div>
               <div class="form-group">

@@ -22,3 +22,8 @@ body {
   margin-right: 50px;
   opacity: .7;
 }
+
+textarea {
+  border: 1px solid rgba(0, 0, 0, .1) !important;
+  padding: 5px !important;
+}
