@@ -1,27 +1,5 @@
-# HTML Dev Template
-A simple, web development file structure, to speed web development.  This template is a good starting point for a web site requiring Bootstrap, jQuery and Google fonts. Originally coded on 6/6/2017.  By Steve Zaske.
-
-## Install Instructions
-1. git clone the repository, to your local drive
-2. rename the folder
-3. delete the .git (hidden) folder
-4. git init
-
-
-## What's included
-Within the repository you'll find the following directories and files:
-
-```
-html-dev-template/
-├── css/
-│    ├── styles.css
-│    └── bootstrap.css
-├── js/
-│    ├── jquery-3.2.1.js
-│    └── script.js
-├── index.html
-└── README.md
-```
+# Word Puzzle
+A JavaScript example of functions and for loops.  Creates a website that walks through a string and replaces the vowels.  Coded on 6/6/2017.  By Steve Zaske.
 
 Direct questions and comments to: [github@zaske.com](mailto:github@zaske.com)
 
